@@ -15,5 +15,18 @@ public class ArithmeticFun {
         System.out.println("product is " + product);
         System.out.println("quotient is " + quotient);
         System.out.println("remainder is " + remainder);
+
+        result += 20;
+        System.out.println("result is now " + result);
+
+        result++;
+        System.out.println("result++ "+ result);
+
+        result--;
+        System.out.println("result-- "+ result);
+
+        product *= 2;
+        System.out.println("product *= is now " + product);
+
     }
 }
